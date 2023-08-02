@@ -8,11 +8,11 @@ import configureMockStore from "redux-mock-store";
 
 const pollID = "8xf0y6ziyjabvozdd253nd"
 const users = {
-  hulk: {
-    id: "hulk",
+  luffy: {
+    id: "luffy",
     password: "123",
-    name: "Crazy Hulk",
-    avatarURL: "/avatar/hulk.jpg",
+    name: "Monkey D.Luffy",
+    avatarURL: "/avatar/luffy.png",
     answers: {
       xj352vofupe1dqz9emx13r: "optionOne",
       vthrdm985a262al8qx3do: "optionTwo",
@@ -25,14 +25,14 @@ const users = {
 const polls = {
   [pollID]: {
     id: "8xf0y6ziyjabvozdd253nd",
-    author: "hulk",
+    author: "luffy",
     timestamp: 1687771713000,
     optionOne: {
       votes: ["blackwidow"],
       text: "Build our new application with Javascript",
     },
     optionTwo: {
-      votes: ["hulk"],
+      votes: ["luffy"],
       text: "Build our new application with Typescript",
     },
   },
@@ -40,7 +40,7 @@ const polls = {
 const mockStore = configureMockStore();
 const store = mockStore({
   users,
-  authedUser: "hulk",
+  authedUser: "luffy",
   polls,
 });
 

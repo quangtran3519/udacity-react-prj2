@@ -10,10 +10,10 @@ import configureMockStore from "redux-mock-store";
 const mockStore = configureMockStore();
 const users = {
   hulk: {
-    id: "hulk",
+    id: "luffy",
     password: "123",
-    name: "Crazy Hulk",
-    avatarURL: "/avatar/hulk.jpg",
+    name: "Monkkey D.Luffy",
+    avatarURL: "/avatar/luffy.png",
     answers: {
       xj352vofupe1dqz9emx13r: "optionOne",
       vthrdm985a262al8qx3do: "optionTwo",
@@ -24,7 +24,7 @@ const users = {
 };
 const store = mockStore({
   users: users,
-  authedUser: "hulk",
+  authedUser: "luffy",
 });
 
 describe("Nav", () => {

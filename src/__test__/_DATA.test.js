@@ -21,7 +21,6 @@ describe("_saveQuestion", () => {
     const question = {
       author: "udactiy",
       optionOneText: "optionOneText mock",
-      //optionTwoText: "optionTwoText mock", //missing one option: optionTwoText
     };
 
     await expect(_saveQuestion(question)).rejects.toBe(
@@ -32,7 +31,6 @@ describe("_saveQuestion", () => {
 
 describe("_saveQuestionAnswer", () => {
   it("the saved question is returned", async () => {
-    //have to use 'real' authedUser&qid from objects of _DATA.js
     const answer = {
       authedUser: "hulk",
       qid: "8xf0y6ziyjabvozdd253nd",
@@ -51,9 +49,7 @@ describe("_saveQuestionAnswer", () => {
   });
 
   it("an error is returned because of missing data input", async () => {
-    //have to use 'real' authedUser&qid from objects of _DATA.js
     const answer = {
-      //   authedUser: "hulk", //missing one option: authedUser
       qid: "8xf0y6ziyjabvozdd253nd",
       answer: "optionOne",
     };
