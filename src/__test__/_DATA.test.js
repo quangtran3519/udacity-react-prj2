@@ -32,7 +32,7 @@ describe("_saveQuestion", () => {
 describe("_saveQuestionAnswer", () => {
   it("the saved question is returned", async () => {
     const answer = {
-      authedUser: "hulk",
+      authedUser: "zoro",
       qid: "8xf0y6ziyjabvozdd253nd",
       answer: "optionOne",
     };

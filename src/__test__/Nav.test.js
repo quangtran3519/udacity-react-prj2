@@ -9,7 +9,7 @@ import configureMockStore from "redux-mock-store";
 
 const mockStore = configureMockStore();
 const users = {
-  hulk: {
+  luffy: {
     id: "luffy",
     password: "123",
     name: "Monkkey D.Luffy",
