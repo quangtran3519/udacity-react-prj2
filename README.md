@@ -7,7 +7,7 @@ This project is to build an application that employees can use internally
 Some descriptions of pages:
 
 - Login: enter username/ password before making any action.
-  Username in list ['hulk', 'ironman', 'blackwidow', 'captainamerica']. Default password for all is '123'.
+  Username in list ['luffy', 'zoro', 'sanji', 'nami']. Default password for all is '123'.
   (username/ password matchs with mock-data in src/utils/\_DATA.js).
 
 - Dashboard: home page, to new unanswered and answered polls, and user can pick option of unanswered polls.
